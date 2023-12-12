@@ -39,7 +39,6 @@ export default function App() {
             setFetching(false);
             setLoading(false);
           }
-          console.log(response, data);
         } catch (error) {
           setFetching(true);
           setCocktails({});

@@ -13,7 +13,7 @@ export default function Cocktail({ idDrink, name, image, alc, category, hanldeId
         <p className='name'>{name}</p>
         <p className='category'>{category}</p>
         <p>{alc}</p>
-        <Link className='link' to="/cocktailpage" onClick={() => hanldeIdCocktail(idDrink)}>Details</Link>
+        <Link className='link' to={"/cocktailpage"} onClick={() => hanldeIdCocktail(idDrink)}>Details</Link>
       </div>
     </div>
   )
