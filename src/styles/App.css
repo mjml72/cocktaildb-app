@@ -1,0 +1,106 @@
+@import "./card.css";
+
+/* ROOT */
+
+:root {
+  --font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  --primary-color: rgb(197, 118, 90);
+  --box-shadow: 0px 0px 5px 5px rgba(100, 100, 100, 0.104);
+}
+
+
+ /* APP */
+
+.App {
+  text-align: center;
+  font-family: var(--font);
+}
+
+
+
+/* HEADER */
+
+.header {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  padding: 5px;
+}
+
+
+
+/* SEARCHBOX */
+
+.search-box {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  max-width: 800px;
+  margin: 4rem auto;
+  border-radius: 10px;
+}
+
+
+.search-box input {
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  border: 1px solid rgb(191, 191, 191);
+  flex: 4;
+
+}
+
+
+.search-box button {
+  flex: 1;
+  font-size: 1.2rem;
+  padding: 0.37rem;
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+}
+
+
+.search-box input:focus {
+  outline: none;
+}
+
+
+
+/* MAIN */
+
+
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 3rem; 
+}
+
+
+
+
+
+/* MESSAGE */
+
+.message {
+  max-width: 800px;
+  background-color: white;
+  margin: 4rem auto;
+  padding: 1rem;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+

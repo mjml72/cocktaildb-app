@@ -1,0 +1,89 @@
+
+
+.cocktail-card {
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+
+.imagecard {
+    width: 100%;
+
+}
+
+
+.name {
+    font-size: 1.8rem;
+}
+
+
+.category {
+    font-size: 1.2rem;
+}
+
+
+.infocard {
+    margin-bottom: 1rem;
+}
+
+
+.link {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    padding: 0.3rem 0.8rem;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+
+
+.big-cocktail-card {
+    max-width: 400px;
+    margin: 1rem auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+}
+
+.bigimagecard {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.bigname {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+.infobigcard {
+    margin-top: 0;
+    text-align: left;
+}
+
+
+.infobigcard p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+}
+
+
+.infobigcard strong {
+    margin-right: 1rem;
+    letter-spacing: 1px;
+    background-color: var(--primary-color);
+    color: bisque;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
