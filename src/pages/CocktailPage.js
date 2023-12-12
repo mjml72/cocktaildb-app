@@ -47,7 +47,7 @@ export default function CocktailPage({ idCocktail }) {
     } else {
         return (
             <div>
-                < Link className='link' to={"/"} > Back</Link >
+                < Link className='link' to="/cocktaildb-app" >Back</Link >
                 {
                     Object.keys(cocktail).length === 0 ?
                         <ErrorMessage /> :

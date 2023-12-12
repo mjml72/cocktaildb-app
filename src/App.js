@@ -58,8 +58,8 @@ export default function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path='/' element={<Home handleClick={handleClick} cocktails={cocktails} loading={loading} hanldeIdCocktail={hanldeIdCocktail} />} />
-          <Route path='cocktailpage' element={<CocktailPage idCocktail={idCocktail} />} />
+          <Route path='/cocktaildb-app' element={<Home handleClick={handleClick} cocktails={cocktails} loading={loading} hanldeIdCocktail={hanldeIdCocktail} />} />
+          <Route path='/cocktailpage' element={<CocktailPage idCocktail={idCocktail} />} />
         </Routes>
       </BrowserRouter>
     </div>
